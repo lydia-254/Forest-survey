@@ -10,9 +10,9 @@ This application allows rangers to input and record details of animals.
 ## Project setup instructions
 * Make sure you have all the Requirements of running Java apps installed such as JUnit, intellij, SDK, JDK.
 
-* Clone the project into your machine from https://github.com/calvince/Wildlife-Tracker .
+* Clone the project into your machine from https://github.com/lydia-254/Forest-survey.git
 
-* Gradle run javac Wildlife-Tracker2.java to compile and java wildlifetracker to run the program
+* Gradle run javac Forest-Survey2.java to compile and java forest survey to run the program
 
 
 ## Technologies used
