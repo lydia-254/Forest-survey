@@ -1,7 +1,5 @@
 #Project
 Forest survey.
- 
-## This is a java application that allows the user to create squads and add heroes to the squad , Friday july 2019
 
 ## Description
 This application allows rangers to input and record details of animals.
