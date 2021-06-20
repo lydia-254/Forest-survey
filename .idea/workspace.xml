@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7851269b-ef06-41b3-9c4f-705971fc0ac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sightings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/location-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/sighting-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/sighting-view.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EndangeredAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EndangeredAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sightings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RangersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RangersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SightingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SightingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/templates/range-view.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/templates/ranger-view.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
