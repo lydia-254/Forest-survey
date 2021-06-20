@@ -1,5 +1,4 @@
 import spark.ModelAndView;
-import spark.template.velocity.VelocityTemplateEngine;
 import java.util.HashMap;
 import java.util.Map;
 import static spark.Spark.*;
@@ -19,17 +18,17 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", "templates/index.vtl");
             return new ModelAndView(model, layout);
-        }, new VelocityTemplateEngine());
+        }, new ());
         get("/animals/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", "templates/animalForm.vtl");
             return new ModelAndView(model, layout);
-        }, new VelocityTemplateEngine());
+        }, new ());
         post("/animals", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             String name = request.queryParams("name");
             try {
-                Animal animal = new Animal(name);
+                Animals animal = new Animals(name);
                 animal.save();
             } catch (IllegalArgumentException exception) {
                 System.out.println("Please enter an animal name.");
