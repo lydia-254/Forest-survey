@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7851269b-ef06-41b3-9c4f-705971fc0ac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rangers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Modules/location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DatabaseManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endangered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EndangeredAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/siting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sighting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Modules/sitingTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Modules/sightingTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnimalTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
