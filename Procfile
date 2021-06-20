@@ -1,0 +1,1 @@
+web: ./build/install/forestsurvey/bin/forestsurvey
