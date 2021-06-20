@@ -1,21 +1,23 @@
+import org.junit.Rule;
+import org.junit.Test;
+import static org.junit.Assert.*;
 public class RangersTest {
-    {
-        @Rule
-        public DatabaseRule databaseRule=new DatabaseRule();
-        @Test
-        public void createInstanceOfRangersClass_true(){
+    @Rule
+    public DatabaseRule databaseRule=new DatabaseRule();
+    @Test
+    public void createInstanceOfRangersClass_true(){
         Rangers ranger= setUpNewRanger();
         assertEquals(true,ranger instanceof Rangers);
     }
-        @Test
-        public void allEntriesAreSaved() {
+    @Test
+    public void allEntriesAreSaved() {
         Rangers ranger= setUpNewRanger();
         ranger.save();
         assertTrue(Rangers.all().get(0).equals(ranger));
     }
-        @Test
-        public void emptyFieldsAreNotSaved() {
-        Rangers ranger=new Rangers("Agnes","","011425678");
+    @Test
+    public void emptyFieldsAreNotSaved() {
+        Rangers ranger=new Rangers("","","0713245678");
         try{
             ranger.save();
             assertTrue(Rangers.all().get(0).equals(ranger));
@@ -23,22 +25,22 @@ public class RangersTest {
             System.out.println(e);
         }
     }
-        @Test
-        public void findById() {
+    @Test
+    public void findById() {
         Rangers ranger= setUpNewRanger();
-        Rangers otherRanger=new Rangers("Alex","14","+254719781443");
+        Rangers otherRanger=new Rangers("Sylvia","2","0726108898");
         ranger.save();
         otherRanger.save();
         Rangers foundRanger=Rangers.find(ranger.getId());
         assertTrue(foundRanger.equals(ranger));
     }
-        @Test
-        public void entryIsUpdatedCorrectly() {
+    @Test
+    public void entryIsUpdatedCorrectly() {
         Rangers ranger= setUpNewRanger();
         Rangers otherRanger=ranger;
         ranger.save();
         try {
-            ranger.update(ranger.getId(),"Augustine","");
+            ranger.update(ranger.getId(),"Ruth Mwangi","0714735954");
             Rangers foundRanger=Rangers.find(ranger.getId());
             assertNotEquals(foundRanger,otherRanger);
             assertEquals(foundRanger.getId(),otherRanger.getId());
@@ -46,17 +48,17 @@ public class RangersTest {
             System.out.println(e);
         }
     }
-        @Test
-        public void entriesAreDeleted() {
+    @Test
+    public void entriesAreDeleted() {
         Rangers ranger= setUpNewRanger();
-        Rangers otherRanger=new Rangers("Veronicah","1","0729752346");
+        Rangers otherRanger=new Rangers("Sylvia","2","0726108898");
         ranger.save();
         otherRanger.save();
         ranger.delete();
         assertEquals(null,Rangers.find(ranger.getId()));
     }
-        @Test
-        public void allSightingsAreReturnedForRanger() {
+    @Test
+    public void allSightingsAreReturnedForRanger() {
         Rangers ranger=setUpNewRanger();
         try {
             Locations location=new Locations("Zone A");
@@ -72,8 +74,8 @@ public class RangersTest {
             System.out.println(e);
         }
     }
-        //helper class
-        private Rangers setUpNewRanger() {
-        return new Rangers("Lydia","11","0746338605");
+    //helper class
+    private Rangers setUpNewRanger() {
+        return new Rangers("Ruth","1","07123456");
     }
 }

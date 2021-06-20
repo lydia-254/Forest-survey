@@ -1,3 +1,7 @@
+import org.sql2o.Connection;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 public class Rangers {
     private int id;
     private String name;
@@ -106,4 +110,3 @@ public class Rangers {
         return Objects.hash(id, name, badge_number, phone_number);
     }
 }
-
