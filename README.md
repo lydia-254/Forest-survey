@@ -18,6 +18,7 @@ This application allows rangers to input and record details of animals.
 * GRADLE (for unit testing)
 * BOOTSTRAP
 * SPARK
+* HTML
 
 ## Specs
  Rangers can add their names so that they can be identified.

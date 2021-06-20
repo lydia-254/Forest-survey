@@ -1,3 +1,8 @@
+import org.sql2o.Connection;
+
+import java.util.List;
+import java.util.Objects;
+
 public class Animal {
     public Animal(String name, string age, string health, string endangered){
         this.name=name;
