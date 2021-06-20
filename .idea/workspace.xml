@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7851269b-ef06-41b3-9c4f-705971fc0ac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/location-form.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/location-view.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/sighting-form.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/sighting-view.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/templates/location-delete.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/templates/range-view.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/templates/ranger-view.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalsTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Forest-Survey.main" />
