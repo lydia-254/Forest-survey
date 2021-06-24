@@ -22,7 +22,7 @@ This application allows rangers to input and record details of animals.
 
 ## Set up
 * CREATE DATABASE forest_survey;
-*\c forest_survey;
+* \c forest_survey;
 * CREATE TABLE animals (id serial PRIMARY KEY, name varchar,type VARCHAR,health VARCHAR,age VARCHAR);
 * CREATE TABLE locations (id serial PRIMARY KEY,name VARCHAR);
 * CREATE TABLE locations_sightings (id serial PRIMARY KEY,location_id INT,sighting_id INT);
